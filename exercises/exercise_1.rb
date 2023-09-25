@@ -19,4 +19,4 @@ Store.create(name: "Gastown",
             womens_apparel: false
             )
 
-puts "Number of stores:", Store.count
+puts "Number of stores: #{Store.count}"

@@ -8,4 +8,4 @@ puts "----------"
 @store2 = Store.find(2)
 
 @store1.name = "Victoria"
-puts "Store 1 is :", @store1.name
+puts "Store 1 is: #{@store1.name}"
