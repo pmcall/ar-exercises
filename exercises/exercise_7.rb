@@ -9,7 +9,7 @@ require_relative './exercise_6'
 puts "Exercise 7"
 puts "----------"
 
-puts "Enter a store name to query: "
+puts "Enter a store name: "
 @store_name = gets.chomp
 
 Store.create(name: @store_name)
